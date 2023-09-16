@@ -1,0 +1,49 @@
+body{
+  max-width: 650px;
+  padding: 2rem;
+  margin: auto;
+
+  line-height: 1.5;
+  text-align: center;
+
+  background-image: linear-gradient(#000000, #821c82);
+}
+
+h3{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 28px;
+
+  color: #101010;
+}
+
+/* Call-to-action container */
+.cta {
+  max-width: 30ch;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin:1rem auto;
+
+  font-family: 'Play', sans-serif;
+  font-variant: small-caps;
+  font-size: 30px;
+  background-color: #ffffff;
+ }
+ 
+ img{
+  max-width: 100%;
+  height: auto;
+
+  display: block;
+ }
+
+ .cta a:hover{
+  color: #270acc;
+ 
+  opacity: 70%;
+  border: auto;
+ }
+ 
+ a{
+text-decoration-line: none;
+ color: #e64fdc
+ }
