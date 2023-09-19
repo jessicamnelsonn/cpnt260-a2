@@ -1,3 +1,4 @@
+/* Body text */
 body{
   max-width: 650px;
   padding: 2rem;
@@ -19,21 +20,35 @@ h3{
 /* Call-to-action container */
 .cta {
   max-width: 30ch;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 1rem;
-  margin:1rem auto;
+  margin: 2rem;
+  margin-top: auto;
 
   font-family: 'Play', sans-serif;
   font-variant: small-caps;
-  font-size: 30px;
+  font-size: 40px;
   background-color: #ffffff;
+ }
+
+.space-image-caption{
+  font-size: 17px;
+  color: black;
  }
  
  img{
   max-width: 100%;
   height: auto;
+  border-radius: 1rem;
 
   display: block;
+ }
+
+ .paragraph{
+  color: #000000;
+  font-family: 'Rajdhani', sans-serif;
+  font-variant: normal;
+  font-size: 20px;
  }
 
  .cta a:hover{
@@ -44,6 +59,6 @@ h3{
  }
  
  a{
-text-decoration-line: none;
+ text-decoration-line: none;
  color: #e64fdc
  }
