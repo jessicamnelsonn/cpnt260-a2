@@ -13,13 +13,13 @@ body{
 /* Display font */
 h3{
   font-family: 'Press Start 2P', 'cursive';
-  font-size: 28px;
+  font-size: 1.5rem;
 
-  color: #101010;
+  color: hsl(0, 0%, 6%);
 }
 
 /* Card container */
-.cta {
+.cta{
   max-width: 30ch;
   padding: 1rem;
   margin: 1rem;
@@ -27,21 +27,21 @@ h3{
   border-radius: 1rem;
 
   font-family: 'Play', sans-serif;
-  font-size: 35px;
+  font-size: 2.2rem;
   font-variant: small-caps;
   
-  background-color: #ffffff;
+  background-color: hsl(0, 0%, 100%);
   display: block;
  }
 
  /* Space-image-caption attributes */
 .space-image-caption{
   font-family: 'Rajdhani', sans-serif;
-  font-size: 19px;
+  font-size: 1.3rem;
   font-variant: normal;
-  font-weight: bold;
+  font-style: italic;
    
-  color: #000000;
+  color: hsl(0, 0%, 0%);
  }
  
  /* Image attributes */
@@ -55,7 +55,7 @@ h3{
 
  /* Hover attributes */
  .cta a:hover{
-  color: #77f6e0;
+  color: hsl(170, 88%, 72%);
   filter: drop-shadow(0 0 2em #acfff4aa);
  }
  
@@ -65,29 +65,31 @@ h3{
  
  text-decoration-line: none;
  
- color: #ffffff
+ color: hsl(0, 0%, 100%)
  }
 
- .find-out-more {
+ /*Find out more button */
+ .find-out-more{
   padding: 0.5rem;
   display: inline-block;
   
   border-radius: 10%;
   
-  background-color:#771a77;
+ background-color:hsl(300, 64%, 28%);
  }
 
+ /*Play now button*/
  .play-now{
   width: max-content;
   padding: 0.5rem 1rem;
   margin: auto;
  
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   
   border-radius: 10%;
  
-  background-color:#acfff4aa;
-  color: black;
+  background-color:hsla(154, 100%, 77%, 0.439);
+  color: hsl(0, 0%, 0%);
  
   display: inline-block;
  
