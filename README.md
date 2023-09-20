@@ -12,6 +12,6 @@ Use of the figure and figcaption elements instead of article and p
 What file(s) and line number(s) can it be found?
 File: index.html
 Line numbers: 
-  Figure- Line 23 & 28
+  Figure- Line 23 & 38
   Figcaption- Line 29
 
