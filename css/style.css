@@ -3,39 +3,48 @@ body{
   max-width: 650px;
   padding: 2rem;
   margin: auto;
-
+  
   line-height: 1.5;
   text-align: center;
-
+  
   background-image: linear-gradient(#000000, #821c82);
 }
 
+/* Display font */
 h3{
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', 'cursive';
   font-size: 28px;
 
   color: #101010;
 }
 
-/* Call-to-action container */
+/* Card container */
 .cta {
   max-width: 30ch;
   padding: 1rem;
-  border-radius: 1rem;
-  margin: 2rem;
+  margin: 1rem;
   margin-top: auto;
+  border-radius: 1rem;
 
   font-family: 'Play', sans-serif;
+  font-size: 35px;
   font-variant: small-caps;
-  font-size: 40px;
+  
   background-color: #ffffff;
+  display: block;
  }
 
+ /* Space-image-caption attributes */
 .space-image-caption{
-  font-size: 17px;
-  color: black;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 19px;
+  font-variant: normal;
+  font-weight: bold;
+   
+  color: #000000;
  }
  
+ /* Image attributes */
  img{
   max-width: 100%;
   height: auto;
@@ -44,21 +53,44 @@ h3{
   display: block;
  }
 
- .paragraph{
-  color: #000000;
-  font-family: 'Rajdhani', sans-serif;
-  font-variant: normal;
-  font-size: 20px;
+ /* Hover attributes */
+ .cta a:hover{
+  color: #77f6e0;
+  filter: drop-shadow(0 0 2em #acfff4aa);
+ }
+ 
+ /* Link attributes */
+ a{
+ margin-top: 1rem;
+ 
+ text-decoration-line: none;
+ 
+ color: #ffffff
  }
 
- .cta a:hover{
-  color: #270acc;
- 
-  opacity: 70%;
-  border: auto;
+ .find-out-more {
+  padding: 0.5rem;
+  display: inline-block;
+  
+  border-radius: 10%;
+  
+  background-color:#771a77;
  }
+
+ .play-now{
+  width: max-content;
+  padding: 0.5rem 1rem;
+  margin: auto;
  
- a{
- text-decoration-line: none;
- color: #e64fdc
+  font-size: 1.5rem;
+  
+  border-radius: 10%;
+ 
+  background-color:#acfff4aa;
+  color: black;
+ 
+  display: inline-block;
+ 
+  display: flex;
+  flex-direction: column;
  }
