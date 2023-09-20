@@ -34,7 +34,7 @@ h3{
   display: block;
  }
 
- /* Space-image-caption attributes */
+/* Space-image-caption attributes */
 .space-image-caption{
   font-family: 'Rajdhani', sans-serif;
   font-size: 1.3rem;
@@ -44,8 +44,8 @@ h3{
   color: hsl(0, 0%, 0%);
  }
  
- /* Image attributes */
- img{
+/* Image attributes */
+img{
   max-width: 100%;
   height: auto;
   border-radius: 1rem;
@@ -53,33 +53,33 @@ h3{
   display: block;
  }
 
- /* Hover attributes */
+/* Hover attributes */
  .cta a:hover{
   color: hsl(170, 88%, 72%);
   filter: drop-shadow(0 0 2em #acfff4aa);
  }
  
- /* Link attributes */
- a{
- margin-top: 1rem;
+/* Link attributes */
+a{
+  margin-top: 1rem;
  
- text-decoration-line: none;
+  text-decoration-line: none;
  
- color: hsl(0, 0%, 100%)
+  color: hsl(0, 0%, 100%)
  }
 
- /*Find out more button */
- .find-out-more{
+/*Find out more button */
+.find-out-more{
   padding: 0.5rem;
   display: inline-block;
   
   border-radius: 10%;
   
- background-color:hsl(300, 64%, 28%);
+  background-color:hsl(300, 64%, 28%);
  }
 
- /*Play now button*/
- .play-now{
+/*Play now button*/
+.play-now{
   width: max-content;
   padding: 0.5rem 1rem;
   margin: auto;
