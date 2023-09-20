@@ -2,7 +2,7 @@
 Course title: CPNT260
 Assignment name: Single Card
 Author name: Jessica Nelson
-A link to the GH Pages site:
+A link to the GH Pages site: https://jessicamnelsonn.github.io/cpnt260-a2/
 
 Above and Beyond:
 
