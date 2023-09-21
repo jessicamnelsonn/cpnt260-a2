@@ -1,17 +1,16 @@
-# cpnt260-a2
-Course title: CPNT260
-Assignment name: Single Card
-Author name: Jessica Nelson
-A link to the GH Pages site: https://jessicamnelsonn.github.io/cpnt260-a2/
+# CPNT 260 Assignment 2: Singe Card
+Author: Jessica Nelson
+[Live Site](https://jessicamnelsonn.github.io/cpnt260-a2/)
 
-Above and Beyond:
+## Above and Beyond:
 
-Which did you choose?
-Use of the figure and figcaption elements instead of article and p
+I chose the following:
 
-What file(s) and line number(s) can it be found?
-File: index.html
-Line numbers: 
-  Figure- Line 23 & 38
-  Figcaption- Line 29
+- Figure and figcaption elements instead of article and p 
+  - See lines 19, 25, 26 & 32 in index.html
 
+
+## Attributions 
+- [Google Fonts](https://fonts.google.com/)
+  - [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?query=press+st)
+  - [Play](https://fonts.google.com/specimen/Play?query=play)
